@@ -50,7 +50,7 @@ nav ul {
   - list-style
   - margin-right
 */
-nav > ul > li {
+nav>ul>li {
   font-size: 1.2.rem;
   list-style: none;
   margin-right: 25px;
@@ -58,14 +58,14 @@ nav > ul > li {
 
 /* Create a block that targets all of the <a> elements that are children of <li> elements in the <nav>  */
 /* Give them a color of #fff and text-decoration of none */
-nav > ul > li > a {
+nav>ul>li>a {
   color: #fff;
   text-decoration: none;
 }
 
 /* Create another block that targets all of the <a> elements that are children of <li> elements in the <nav>  */
 /* Use the :hover pseudo-class to add an underline on hover */
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   text-decoration: underline;
 }
 
@@ -78,7 +78,7 @@ nav > ul > li > a:hover {
   padding-bottom: 1rem;
 }
 
-/* Create a block that targets the <h3> child of the where-togo class  */
+/* Create a block that targets the <h3> child of the where-togo class    */
 /* Use the font-size and color properties to style the <h3> element */
 
 /* The search form has a class of search-form. We want the input fields to  */
@@ -150,7 +150,7 @@ img {
   /* Write your code here */
 }
 
-.single-testmonial{
+.single-testmonial {
   /* Write your code here */
 }
 
@@ -163,7 +163,7 @@ img {
 }
 
 .footer-widget a:hover {
-   /* Write your code here */
+  /* Write your code here */
 }
 
 .footer-widget ul li {
@@ -171,13 +171,13 @@ img {
 }
 
 .footer-widget a {
-   /* Write your code here */
+  /* Write your code here */
 }
 
 /* Media Queries */
 
 @media (max-width: 720px) {
-    /* Add some responsive code here */
-    /* Make the destinations stack on top of each other */
-    /* Make the form input stack on top of each other */
+  /* Add some responsive code here */
+  /* Make the destinations stack on top of each other */
+  /* Make the form input stack on top of each other */
 }
