@@ -1,6 +1,7 @@
 body {
   /* Set the font-family for the entire body to Roboto with a generic family of sans-serif */
   /* Hint: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+  font-family: Roboto, sans-serif;
 }
 
 header {
@@ -11,21 +12,33 @@ header {
   - Use flexbox to vertically align the "CodeClan Travel" logo in the center
   Hint: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
   */
+  height: 4rem;
+  background-color: #4584b1;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 #logo {
   /* The logo element has an id of logo */
   /* Give the logo element a left margin of 40px */
+  margin-left: 40px;
 }
 
 nav {
   /* Give the nav a background color (#103594) */
   /* Use rem units to give the nav an appropriate height */
   /* Use flexbox to vertially align the nav child elements in the center */
+  background-color: #103594;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
   /* Use flexbox to layout the li elements horizontally */
+  display: flex;
 }
 
 /* Now it's time for the navigation links */
@@ -37,16 +50,33 @@ nav ul {
   - list-style
   - margin-right
 */
+nav > ul > li {
+  font-size: 1.2.rem;
+  list-style: none;
+  margin-right: 25px;
+}
 
 /* Create a block that targets all of the <a> elements that are children of <li> elements in the <nav>  */
 /* Give them a color of #fff and text-decoration of none */
+nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* Create another block that targets all of the <a> elements that are children of <li> elements in the <nav>  */
 /* Use the :hover pseudo-class to add an underline on hover */
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
 
 /* Where to go section includes an <h3> element and a <form>  */
 /* Create a block that targets the where-togo class and give it a background color of #040E27 and suitable padding */
 /* Hint: https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+.where-togo {
+  background-color: #040E27;
+  padding-left: .5rem;
+  padding-bottom: 1rem;
+}
 
 /* Create a block that targets the <h3> child of the where-togo class  */
 /* Use the font-size and color properties to style the <h3> element */
